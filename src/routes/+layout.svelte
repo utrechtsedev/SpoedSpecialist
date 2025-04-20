@@ -44,7 +44,8 @@
   </div>
   <div class="navbar-end">
     <ul class="menu menu-horizontal px-1">
-      <li><a class="text-xl" href="/">Abonnement</a></li>
+      <li><a class="text-lg" href="/">Abonnement</a></li>
+      <li><a class="text-lg" href="/">Blog</a></li>
     </ul>
     <a href="/" class="btn border-black rounded-xl py-6 text-lg">
       <svg
