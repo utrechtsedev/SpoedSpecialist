@@ -37,37 +37,42 @@
           <div
             class="bg-white p-8 rounded-2xl h-full flex flex-col justify-between"
           >
-            <!-- Stars from DaisyUI -->
-            <div class="rating">
+            <!-- Stars from DaisyUI - made non-interactive -->
+            <div class="rating pointer-events-none">
               <input
                 type="radio"
                 name="rating-1"
                 class="mask mask-star-2 bg-orange-400"
                 checked
+                disabled
               />
               <input
                 type="radio"
                 name="rating-1"
                 class="mask mask-star-2 bg-orange-400"
                 checked
+                disabled
               />
               <input
                 type="radio"
                 name="rating-1"
                 class="mask mask-star-2 bg-orange-400"
                 checked
+                disabled
               />
               <input
                 type="radio"
                 name="rating-1"
                 class="mask mask-star-2 bg-orange-400"
                 checked
+                disabled
               />
               <input
                 type="radio"
                 name="rating-1"
                 class="mask mask-star-2 bg-orange-400"
                 checked
+                disabled
               />
             </div>
 
@@ -103,37 +108,42 @@
         <div
           class="bg-white p-8 rounded-2xl h-full flex flex-col justify-between"
         >
-          <!-- Stars from DaisyUI -->
-          <div class="rating">
+          <!-- Stars from DaisyUI - made non-interactive -->
+          <div class="rating pointer-events-none">
             <input
               type="radio"
               name="rating-2"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-2"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-2"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-2"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-2"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
           </div>
 
@@ -164,37 +174,42 @@
         <div
           class="bg-white p-8 rounded-2xl h-full flex flex-col justify-between"
         >
-          <!-- Stars from DaisyUI -->
-          <div class="rating">
+          <!-- Stars from DaisyUI - made non-interactive -->
+          <div class="rating pointer-events-none">
             <input
               type="radio"
               name="rating-3"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-3"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-3"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-3"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-3"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
           </div>
 
@@ -225,37 +240,42 @@
         <div
           class="bg-white p-8 rounded-2xl h-full flex flex-col justify-between"
         >
-          <!-- Stars from DaisyUI -->
-          <div class="rating">
+          <!-- Stars from DaisyUI - made non-interactive -->
+          <div class="rating pointer-events-none">
             <input
               type="radio"
               name="rating-4"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-4"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-4"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-4"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
             <input
               type="radio"
               name="rating-4"
               class="mask mask-star-2 bg-orange-400"
               checked
+              disabled
             />
           </div>
 
@@ -285,3 +305,4 @@
     </div>
   </div>
 </div>
+

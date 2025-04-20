@@ -6,8 +6,10 @@
   import herotopright from "$lib/img/hero-top-right.png";
 </script>
 
-<div class="px-8 pb-8">
-  <div class="h-[80vh] w-full rounded-3xl relative overflow-hidden">
+<div class="px-4 pb-8 md:px-8">
+  <div
+    class="h-[100vh] md:h-[80vh] w-full rounded-3xl relative overflow-hidden"
+  >
     <!-- Base background image with darker blue overlay -->
     <div class="absolute inset-0 w-full h-full">
       <img
@@ -38,11 +40,11 @@
       alt="Top Right"
       class="absolute top-0 right-0 w-auto h-auto opacity-80"
     />
-    <!-- Persons image - only moved right -->
+    <!-- Persons image - Hidden on mobile, shows in desktop -->
     <img
       src={heropersons}
       alt="Persons"
-      class="absolute inset-0 w-full h-full object-contain translate-x-75 scale-125"
+      class="hidden md:block absolute inset-0 w-full h-full object-contain translate-x-75 scale-125"
     />
     <!-- Bottom round element -->
     <div class="absolute -bottom-5 w-full">
@@ -50,23 +52,24 @@
       <img src={herobottomround} alt="Bottom Round" class="w-full" />
     </div>
     <!-- Text Content Container -->
-    <div class="absolute inset-0 flex items-center">
-      <div class="ml-16 max-w-lg z-10">
+    <div class="absolute inset-0 flex flex-col justify-start md:justify-center">
+      <div class="mx-6 mt-8 md:ml-16 md:mt-0 max-w-lg z-10">
         <!-- Heading -->
-        <h1 class="text-5xl font-bold text-white mb-4">
+        <h1 class="text-3xl md:text-5xl font-bold text-white mb-4">
           Spoed Loodgieter, Elektricien of Slotenmaker Nodig? Wij Helpen Direct!
         </h1>
         <!-- Undertext / Description -->
-        <p class="text-xl text-gray-100 mb-8">
+        <p class="text-lg md:text-xl text-gray-100 mb-6 md:mb-8">
           Buitengesloten of groot loodgietersprobleem? Onze experts zijn altijd
           bereikbaar.
         </p>
         <!-- Button - Fixed with flex display -->
         <a
           href="tel:0219830438"
-          class="bg-yellow-300 hover:bg-yellow-500 text-gray-900 font-bold py-4.5 px-8 transition duration-300 mb-4 rounded-xl inline-flex items-center gap-2"
+          class="bg-yellow-300 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-6 md:py-4.5 md:px-8 transition duration-300 mb-4 rounded-xl inline-flex items-center gap-2"
         >
           <svg
+            class="hidden lg:flex"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -83,6 +86,16 @@
           24/7 beschikbaar, neem op elk moment contact met ons op.
         </p>
       </div>
+
+      <!-- Persons image for mobile - Shows only on mobile below the text -->
+      <div class="md:hidden mt-auto mb-8">
+        <img
+          src={heropersons}
+          alt="Persons"
+          class="w-full h-auto object-contain max-h-[50vh]"
+        />
+      </div>
     </div>
   </div>
 </div>
+

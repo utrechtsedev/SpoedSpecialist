@@ -19,18 +19,20 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- Card 1: Loodgieter -->
       <div
-        class="border border-gray-200 rounded-2xl overflow-hidden flex flex-row min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
+        class="border border-gray-200 rounded-2xl overflow-hidden flex flex-col md:flex-row md:min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
       >
-        <div class="w-1/2 overflow-hidden">
+        <div class="w-full md:w-1/2 overflow-hidden">
           <img
             src={plumbing}
             alt="Loodgieter"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            class="w-full h-48 md:h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-        <div class="w-1/2 py-9 ml-10 mr-4 flex flex-col justify-between">
+        <div
+          class="w-full md:w-1/2 p-6 md:py-9 md:ml-10 md:mr-4 flex flex-col justify-between"
+        >
           <div>
-            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-8">
+            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-4 md:mb-8">
               Loodgieter
             </h3>
             <p class="text-gray-600 font-light">
@@ -72,18 +74,20 @@
 
       <!-- Card 2: Elektricien -->
       <div
-        class="border rounded-2xl border-gray-200 overflow-hidden flex flex-row min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
+        class="border rounded-2xl border-gray-200 overflow-hidden flex flex-col md:flex-row md:min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
       >
-        <div class="w-1/2 overflow-hidden">
+        <div class="w-full md:w-1/2 overflow-hidden">
           <img
             src={electrical}
             alt="Elektricien"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            class="w-full h-48 md:h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-        <div class="w-1/2 py-9 ml-10 mr-4 flex flex-col justify-between">
+        <div
+          class="w-full md:w-1/2 p-6 md:py-9 md:ml-10 md:mr-4 flex flex-col justify-between"
+        >
           <div>
-            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-8">
+            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-4 md:mb-8">
               Elektricien
             </h3>
             <p class="text-gray-600 font-light">
@@ -125,18 +129,20 @@
 
       <!-- Card 3: Slotenmaker -->
       <div
-        class="border rounded-2xl border-gray-200 overflow-hidden flex flex-row min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
+        class="border rounded-2xl border-gray-200 overflow-hidden flex flex-col md:flex-row md:min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
       >
-        <div class="w-1/2 overflow-hidden">
+        <div class="w-full md:w-1/2 overflow-hidden">
           <img
             src={locksmith}
             alt="Slotenmaker"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            class="w-full h-48 md:h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-        <div class="w-1/2 py-9 ml-10 mr-4 flex flex-col justify-between">
+        <div
+          class="w-full md:w-1/2 p-6 md:py-9 md:ml-10 md:mr-4 flex flex-col justify-between"
+        >
           <div>
-            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-8">
+            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-4 md:mb-8">
               Slotenmaker
             </h3>
             <p class="text-gray-600 font-light">
@@ -178,18 +184,20 @@
 
       <!-- Card 4: Nooddienst -->
       <div
-        class="border rounded-2xl border-gray-200 overflow-hidden flex flex-row min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
+        class="border rounded-2xl border-gray-200 overflow-hidden flex flex-col md:flex-row md:min-h-45 group cursor-pointer hover:shadow-lg transition-shadow duration-300"
       >
-        <div class="w-1/2 overflow-hidden">
+        <div class="w-full md:w-1/2 overflow-hidden">
           <img
             src={emergency}
             alt="Nooddienst"
-            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            class="w-full h-48 md:h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-        <div class="w-1/2 py-9 ml-10 mr-4 flex flex-col justify-between">
+        <div
+          class="w-full md:w-1/2 p-6 md:py-9 md:ml-10 md:mr-4 flex flex-col justify-between"
+        >
           <div>
-            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-8">
+            <h3 class="text-2xl font-bold text-gray-800 mt-2 mb-4 md:mb-8">
               Nooddienst
             </h3>
             <p class="text-gray-600 font-light">
@@ -231,3 +239,4 @@
     </div>
   </div>
 </div>
+
